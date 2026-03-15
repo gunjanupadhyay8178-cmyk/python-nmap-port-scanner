@@ -1,0 +1,72 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-03-15 14:53 IST
+Stats: 0:00:33 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Stats: 0:00:35 elapsed; 0 hosts completed (1 up), 1 undergoing Service Scan
+Service scan Timing: About 0.00% done
+Nmap scan report for www.google.com (142.251.157.119)
+Host is up (0.024s latency).
+Other addresses for www.google.com (not scanned): 142.251.155.119 142.251.150.119 142.251.154.119 142.251.156.119 142.251.151.119 142.251.152.119 142.251.153.119 2404:6800:4002:807::2004
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      gws
+443/tcp open  ssl/https gws
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=3/15%Time=69B67AC3%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,5795,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2015\x20Mar\x2020
+SF:26\x2009:24:18\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20private,\x
+SF:20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r\nCon
+SF:tent-Security-Policy-Report-Only:\x20object-src\x20'none';base-uri\x20'
+SF:self';script-src\x20'nonce-o0BMCPkuvtbQAknjcXRoAg'\x20'strict-dynamic'\
+SF:x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:\x20htt
+SF:p:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r\nRepor
+SF:ting-Endpoints:\x20default=\"//www\.google\.com/httpservice/retry/jserr
+SF:or\?ei=wnq2aemKEvaq1sQPsfiuoQM&cad=crash&error=Page%20Crash&jsel=1&bver
+SF:=2397&dpf=Jf18cv_MvdCbA243rNEGvV-YbQCR9sGo821lX1tdBUY\"\r\nP3P:\x20CP=\
+SF:"This\x20is\x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phelp\x20fo
+SF:r\x20more\x20info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x200\r\nX-
+SF:Frame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20__Secure-STRP=AEEP7gILln
+SF:IOGMyU3NBhvi9NH_pRC3QEaXHkgHr-3yRr8EvU8ehKlk9Vg3MW60LANlsML1QpU9jfcm7pP
+SF:UtycX3OfmppfQuesFKC;\x20expires=Sun,\x2015-Mar-2026\x2009:29:18\x20GMT;
+SF:\x20path=/;\x20domai")%r(HTTPOptions,6DC,"HTTP/1\.0\x20405\x20Method\x2
+SF:0Not\x20Allowed\r\nContent-Type:\x20text/html;\x20charset=UTF-8\r\nRefe
+SF:rrer-Policy:\x20no-referrer\r\nContent-Length:\x201592\r\nDate:\x20Sun,
+SF:\x2015\x20Mar\x202026\x2009:24:18\x20GMT\r\n\r\n<!DOCTYPE\x20html>\n<ht
+SF:ml\x20lang=en>\n\x20\x20<meta\x20charset=utf-8>\n\x20\x20<meta\x20name=
+SF:viewport\x20content=\"initial-scale=1,\x20minimum-scale=1,\x20width=dev
+SF:ice-width\">\n\x20\x20<title>Error\x20405\x20\(Method\x20Not\x20Allowed
+SF:\)!!1</title>\n\x20\x20<style>\n\x20\x20\x20\x20\*{margin:0;padding:0}h
+SF:tml,code{font:15px/22px\x20arial,sans-serif}html{background:#fff;color:
+SF:#222;padding:15px}body{margin:7%\x20auto\x200;max-width:390px;min-heigh
+SF:t:180px;padding:30px\x200\x2015px}\*\x20>\x20body{background:url\(//www
+SF:\.google\.com/images/errors/robot\.png\)\x20100%\x205px\x20no-repeat;pa
+SF:dding-right:205px}p{margin:11px\x200\x2022px;overflow:hidden}ins{color:
+SF:#777;text-decoration:none}a\x20img{border:0}@media\x20screen\x20and\x20
+SF:\(max-width:772px\){body{background:none;margin-top:0;max-width:none;pa
+SF:dding-right:0}}#logo{background:url\(//www\.google\.com/images/branding
+SF:");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=3/15%Time=69B67AC9%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,406E,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sun,\x2015\x20Ma
+SF:r\x202026\x2009:24:25\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20pri
+SF:vate,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1
+SF:\r\nContent-Security-Policy-Report-Only:\x20object-src\x20'none';base-u
+SF:ri\x20'self';script-src\x20'nonce-hxDg49yCAXsFveWxBBBHnw'\x20'strict-dy
+SF:namic'\x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:
+SF:\x20http:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r
+SF:\nReporting-Endpoints:\x20default=\"//www\.google\.com/httpservice/retr
+SF:y/jserror\?ei=yHq2aYazPIO91sQPg9aG4As&cad=crash&error=Page%20Crash&jsel
+SF:=1&bver=2397&dpf=Jf18cv_MvdCbA243rNEGvV-YbQCR9sGo821lX1tdBUY\"\r\nAccep
+SF:t-CH:\x20Sec-CH-Prefers-Color-Scheme\r\nP3P:\x20CP=\"This\x20is\x20not\
+SF:x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phelp\x20for\x20more\x20info\.
+SF:\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x200\r\nX-Frame-Options:\x20S
+SF:AMEORIGIN\r\nSet-Cookie:\x20__Secure-STRP=AEEP7gLTgGMWviLY5xF6c5zWgKaTc
+SF:5cJ_HkHw7RDZyuRGxMmEsGHCGYZCDkfVGzJbH82jDbQGHZzri4diBZpotg3BYHTfDnCTw;\
+SF:x20expires=Sun,\x201")%r(DNSStatusRequestTCP,B3,"HTTP/1\.0\x20400\x20Ba
+SF:d\x20Request\r\nContent-Length:\x2054\r\nContent-Type:\x20text/html;\x2
+SF:0charset=UTF-8\r\nDate:\x20Sun,\x2015\x20Mar\x202026\x2009:24:36\x20GMT
+SF:\r\n\r\n<html><title>Error\x20400\x20\(Bad\x20Request\)!!1</title></htm
+SF:l>");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 86.02 seconds
